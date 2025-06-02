@@ -17,8 +17,7 @@ A GUI-based PowerShell tool for syncing and verifying on-premises Active Directo
 ---
 
 ## 📷 Screenshot
-
-*(Include a screenshot of the running GUI here)*
+![Screenshot](https://github.com/user-attachments/assets/2c324452-a56f-43ea-8184-def57e09deec)
 
 ---
 
