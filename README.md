@@ -1,39 +1,42 @@
-# ActiveDirectory to EntraID (formally AzureAD) ImmutableID Migrator
+# Active Directory to Entra ID (formerly Azure AD) ImmutableID Migrator
 
-A GUI-based PowerShell tool for syncing and verifying on-premises Active Directory users with their Azure Active Directory counterparts by comparing and updating their ImmutableID based on the AD objectGUID.
+A GUI-based PowerShell tool for syncing on-premises Active Directory users with their Entra ID (formerly Azure AD) counterparts by comparing and updating their `ImmutableID` based on the on-premises `objectGUID`. This ensures that when you migrate and sync, you avoid duplicated or mismatched users in Microsoft 365.
 
 ---
 
 ## 🔍 Features
 
-- 🎛️ Windows Forms GUI interface for easy interaction
-- 🔄 Pulls and compares on-prem AD and Azure AD user data
-- 🧮 Auto-generates the expected ImmutableID from on-prem GUID
-- 🟢 Color-coded display indicating sync status
-- 🔁 Supports refreshing, sorting, and zooming
-- 🔐 Optional: Set or update ImmutableID (functionality stubbed, can be extended)
-- 📊 Live progress bar and status updates
+- 🎛️ Intuitive Windows Forms GUI for ease of use  
+- 🔄 Automatically pulls and compares on-prem AD and Entra ID user data  
+- 🧮 Generates expected `ImmutableID` from the on-prem `objectGUID`  
+- 🟢 Color-coded display showing match/mismatch status  
+- 🔁 Supports sorting, zooming, and refreshing  
+- 🔐 Placeholder for setting/updating ImmutableID (stubbed, can be extended)  
+- 📊 Live progress bar and status updates during sync  
 
 ---
 
 ## 📷 Screenshot
+
 ![Screenshot](https://github.com/nelsonbrett55/sync-ad-objectguid-to-immutableid/blob/main/Screenshot.png)
 
 ---
 
 ## 🛠 Requirements
 
-- Windows PowerShell
-- Admin privileges (for AD queries and module installations)
-- Modules:
-  - [`MSOnline`](https://learn.microsoft.com/en-us/powershell/module/msonline/?view=azureadps-1.0)
-  - `ActiveDirectory` PowerShell module
+- Windows PowerShell (not PowerShell Core)
+- Local admin privileges
+- Required PowerShell modules:
+  - [`MSOnline`](https://learn.microsoft.com/en-us/powershell/module/msonline/?view=azureadps-1.0)  
+  - `ActiveDirectory` module (available via RSAT or Windows Server)
+
+> 💡 Ensure you're running PowerShell as Administrator and that the RSAT tools are installed to access Active Directory cmdlets.
 
 ---
 
 ## 🚀 Getting Started
 
-1. Clone this repo:
+1. **Clone this repository:**
    ```powershell
    git clone https://github.com/nelsonbrett55/sync-ad-objectguid-to-immutableid.git
-   cd AzureAD-SID-to-ImmutableID-Migrator
+   cd sync-ad-objectguid-to-immutableid
