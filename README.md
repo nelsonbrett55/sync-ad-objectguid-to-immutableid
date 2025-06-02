@@ -17,7 +17,7 @@ A GUI-based PowerShell tool for syncing and verifying on-premises Active Directo
 ---
 
 ## 📷 Screenshot
-![Screenshot](https://github.com/user-attachments/assets/2c324452-a56f-43ea-8184-def57e09deec)
+![Screenshot](https://github.com/nelsonbrett55/sync-ad-objectguid-to-immutableid/blob/main/Screenshot.png)
 
 ---
 
