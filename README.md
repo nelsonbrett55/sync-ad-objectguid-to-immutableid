@@ -35,5 +35,5 @@ A GUI-based PowerShell tool for syncing and verifying on-premises Active Directo
 
 1. Clone this repo:
    ```powershell
-   git clone https://github.com/yourusername/AzureAD-SID-to-ImmutableID-Migrator.git
+   git clone https://github.com/nelsonbrett55/sync-ad-objectguid-to-immutableid
    cd AzureAD-SID-to-ImmutableID-Migrator
