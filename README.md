@@ -1,4 +1,4 @@
-# AzureAD SID to ImmutableID Migrator
+# EntraID (AzureAD SID) to ImmutableID Migrator
 
 A GUI-based PowerShell tool for syncing and verifying on-premises Active Directory users with their Azure Active Directory counterparts by comparing and updating their ImmutableID based on the AD objectGUID.
 
